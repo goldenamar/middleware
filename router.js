@@ -7,6 +7,9 @@ const middleWare = (req, res, next) => {
     next();
 }
 
-router.post("/sign-up", createUser);
+router
+    .use(middleWare)
+    .get("/sign-in", getUser)
+    .post("/sign-up", createUser)
 
 module.exports = router
