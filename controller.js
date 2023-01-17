@@ -11,3 +11,11 @@ exports.createUser = async (req, res, next) => {
         .status(201)
         .json({message: `New user is created.`, data: createUser});
 };
+
+exports.getUser = async (req, res, next) => {
+    // if(req.body.name == test.users.name) {
+    //     res
+    //         .status(201)
+    //         .json({message: `Successfully logged in`})
+    // }
+}

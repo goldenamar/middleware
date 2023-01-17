@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const uri =
-    "mongodb+srv://blackberry_cream:Fusion2me@login.okhpp3p.mongodb.net/?retryWrites=true&w=majority";
+    "mongodb+srv://blackberry_cream:Fusion2me@login.j64o512.mongodb.net/?retryWrites=true&w=majority";
 
 const connect = async () => {
     try {
